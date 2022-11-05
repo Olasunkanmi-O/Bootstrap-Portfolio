@@ -1,0 +1,41 @@
+/* Reset */
+    /* * {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+
+    } */
+.jumbotron-fluid {
+    background-image: url(../images/02-portfolio-3.jpg);
+}
+.jumbotron-fluid h1, p {
+    color:black
+}
+.content {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: antiquewhite;
+}
+
+.media {
+    background-color: beige;
+}
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+footer ul {
+    display:inline-flex;
+    padding-top: 10px;
+    list-style: none;
+}
+footer ul a {
+    padding:5px;
+}
+
+
+
+
+  
